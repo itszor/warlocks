@@ -66,6 +66,8 @@ The play area is a 336 by 224 overscan display: the game programs VIDC's
 horizontal and vertical display and border registers itself, and scrolls
 by moving the display start 2 pixels at a time. Its border hides the
 extra pixels; the window shows the 304 that the original's border left.
+The border also covers the play area's top 16 lines (VBSR is 16 lines
+below VDSR), which hold half-drawn graphics.
 
 Everything translates: headless runs through the title, the first level,
 game over (the CC screen) and new games interpret nothing but Startup.
@@ -108,5 +110,9 @@ Not done
 - Only the first level, and game over, have been played (headlessly).
   Later levels load other C, N, A, S and l files; if one of them holds code
   too, --trace-gaps will show it (make roots, make regen).
+- A one-line stripe at the bottom of the play area, just above the panel,
+  in some places (e.g. after walking right for 20 seconds): it's in the
+  game's own drawing (an interpreted run draws it too), not hidden by the
+  border, so perhaps the original shows it as well. Unconfirmed.
 - Joysticks (Joystick_Read).
 - The cracked hard-disc version in the Spark archive.
