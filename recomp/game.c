@@ -52,6 +52,9 @@ static struct roger_config config = {
     .initial_mode = 13,                          /* Startup's */
     .wimpslot = 512 * 1024,                      /* !Run */
     .screen_size = 160 * 1024,                   /* Startup's, as !Help asks */
+    /* a controller: the stick or D-pad Z, X, ' and / (VTjoystick's keys), A
+     * fire (Return), B jump (' too), start Space (a key starts a game) */
+    .pad_map = "left=Z,right=X,up=',down=/,a=Return,b=',start=Space",
     .keys = keys,
     .nkeys = sizeof keys / sizeof keys[0],
     .init = init,
