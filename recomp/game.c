@@ -55,6 +55,9 @@ static struct roger_config config = {
     /* a controller: the stick or D-pad Z, X, ' and / (VTjoystick's keys), A
      * fire (Return), B jump (' too), start Space (a key starts a game) */
     .pad_map = "left=Z,right=X,up=',down=/,a=Return,b=',start=Space",
+    /* the controllers as the joystick, if one is connected: it reads
+     * Joystick_Read every frame, and the keys too */
+    .joystick = ROGER_JOY_ACORN,
     .keys = keys,
     .nkeys = sizeof keys / sizeof keys[0],
     .init = init,
