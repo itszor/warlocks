@@ -1,0 +1,102 @@
+{
+ "name": "warlocks",
+ "title": "Warlocks v1.01 (Network 23, 1993)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py).",
+ "inputs": {
+  "containers": {},
+  "formats": [
+   "adf",
+   "zip"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc1",
+   "title": "Disk 1 of 2 (program)",
+   "known_images": [
+    "42df21914ca44f1afddc55314fd3da49eb0773be6e45fc8811853e28d31ade7f"
+   ],
+   "key_files": {
+    "!Warlocks/!Runimage": "55b2680657aa61b37b69adf1242218d06b0eefaa694053ae57f2bff3e99fec5c",
+    "!Warlocks/!Run": "a54ce39124b50a8762f1aa50680ca8988e4767d28ed6b0ee20576f6b63c81d1e",
+    "!Warlocks/STARTUP": "866407cbb708031b998adf8886465b6f594818146b0eb79dd68ab417b8a6bf6e",
+    "!Warlocks/LS": "572f629eb15e4aadae0d563a23da694f390d0c364591e0217d5054d18867dcb6",
+    "!Warlocks/betty2": "b96d71f3c041ccf9faf114cecd1701c7e7364668918161fcd9b9a081f34721f7"
+   },
+   "game_dirs": [
+    "!Warlocks"
+   ]
+  },
+  {
+   "name": "disc2",
+   "title": "Disk 2 of 2 (data)",
+   "known_images": [
+    "dd44e2c7d04257fb616f7a6f709e28c7cc1e69dbd0b4b7e81af7062a6b51a6d3"
+   ],
+   "key_files": {
+    "A1": "f2ef9e1efcbc30e7c09cb9bf343ba270b97d23969fcd8586c3c4c36dbdffd423",
+    "A10": "ec79e3507d8ac6ae2a74807e03ffe39a224b6132057ad38dce7ee6bff6ad426e",
+    "A11": "4d2034f7ac938f92b8cb6f629a2ea0f64423254e28e247172790145cb0180031",
+    "A2": "af42fa343ae5517981999e8a10f3937bd0fc1686ea7ba39ce5e545152a2ed2b0",
+    "A3": "0b3b513a8bf59f42bf6ada2be683f7a13a31c974b185dee1b16b6e154663b939",
+    "A4": "e77496c8705facbccf14eb758afca1aaf2c8dcfccf7e0f420e08c9fb7ede089c",
+    "A5": "fcd88510f35157c75ca3ed989229444afce0e9dfd9286d0a0d5b7839dbbb72df",
+    "A6": "fed21df82a10245413b6f3bb355994d23a422f7a4c7983d86fca3f21a3179bb7",
+    "A7": "225851edf9d0d5aa548769b1714f74716c0c667192b52e6cb28e0f1fbeed1cb5",
+    "A8": "27d7a6c3d621c52c9c4ab665a2e2abd3b2d005d30a6d3e52fcd16227430ecfa9",
+    "A9": "57a2282e76f79a7d1ae0ff71903bbb7c0f341a532c63363703f4da441a573336",
+    "C1": "61f1653c303ac164df8ef5e43b95ba2ee73d0d014465f93c5b4c0036a7b55dac",
+    "C10": "8a19c0603f79c02e35590bcc9cc3db8d8d4996cda307c71660b1ca0f9592bf54",
+    "C11": "dd4c39c14b25c94ef537d7363b1f65d20355a116be3001d59c87a5f024b3e61c",
+    "C2": "a42bef685d4e994c23e4f618f8ed1f9ac14c0ed1858c0d27cd18f3453c1f1781",
+    "C3": "30c8f690fac046adc17ce4c6d7ce55225503c3151d5a51a35023736d1d74e378",
+    "C4": "9fe89b429ae05a5ad2572614a022b3c0efbe8c3f25ebfef3d4172dbe7ee56eb3",
+    "C5": "18487e8e9079c86a62d4ca70f5d00ffd00c8601c169d027f97fb46069a0fdb7a",
+    "C6": "8e43bd7e361924f2906bba6d087b685a6db0e0cfea445fc66c025bd1a063b4dd",
+    "C7": "3a8471f363b6c858bd0c1f1e4a913fe3f982d9f3e38712a9afb3fddb8bff79cf",
+    "C8": "b360f4afcdb5a9c9a1a02ee362559900c8535dc0b2acc6c2c8ae06629e7b449a",
+    "C9": "489ac0127b435e2da6ecc87eff4049cade1951fdc4558d5b1a8499415d06510f",
+    "CC": "c2788abd2ebbd30ed6fdf4537c493e31f2b7e459960b50bab17f005d0fca7d4f",
+    "CM": "e0e2f7a00d5fdd3ca04f49b6e84824f4c2cf26b3f51022d6a925406102e5bed5",
+    "CT": "6f76c8bbe419df4dc53529853230f0bd6e4c9dba0843511b61de4a4cf1538e62",
+    "N1": "73557678b421d29d7f842860cdef5af6f6b2c7e9f14d95619d4448cac97e7662",
+    "N2": "7a6d7dc1b68bc31339c66399cd841a763ff39286f11e734aa885ddbbd3f24d90",
+    "N3": "163eeba6867db45ead0e8f72cafd20b5c3c02cada18432ccdc1eb8940ec525b8",
+    "S1": "0b7360fe439e05b1e90f12d338d16edf5261df0ab9601fbb46eaead29d4b83d7",
+    "S2": "6b180d6990777b28a02c4bf38dd74d088c64d5afd6afcc3fb72ff825189dc839",
+    "WM": "4f5e9df8833f2da3ad386abc3c36026042f369c25e9966dc5b81c19078f39ce1",
+    "l0": "2687d154663020edcf583bd02e4bbe7af0503925b0ed7303a31b41845bd15885",
+    "l1": "8ff33b81e8c8540472547dd322594b49702ca09828b27a173be8592014337088",
+    "l2": "4dd1b35f2a6d8a43aa115f0c9550b20b14adcd946fa40da13bb887091e828aa5",
+    "l3": "3dfb5b59394d2ca90a3a0d8bff9464068b6eba16eff0485e422cb946e236f593",
+    "l4": "864b9cf035f10be168dfdd94a2f4aa8d77d1d1ba4509c69dcda99debe77dbd3c",
+    "l5": "4946bc9380aa1882e3e893c28a402609870a8a6bf8500d9ba35a1ffacdd3c653",
+    "l6": "617a05702a4d169de2f607602d4ea4b63cfe49c3597d7b537a01e51b2ce22b09",
+    "l7": "65cfc93d16c03a8db05ccd48f4d4f8f72b607c8c0f768acd687b648338f5c18c",
+    "l8": "4373a66ed755d27107c6835838acba80b226d802abe3c739886b0c82445a4ca3",
+    "l9": "8b61497e333175d398bd79ce0624dd02e02d11db3045f095900e57958b8d3822"
+   },
+   "game_dirs": [
+    "$"
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/warlocks",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./warlocks"
+}

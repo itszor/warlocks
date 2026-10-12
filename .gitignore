@@ -1,0 +1,27 @@
+# The original discs and everything made from them stay out of the
+# repository: build.sh (recipe.json) remakes them from the user's own copy.
+*.zip
+*.adf
+extracted/
+game/
+analysis/*.json
+recomp/gen/
+recomp/*.o
+recomp/warlocks
+recomp/*.events
+recomp/*.vdu
+recomp/*.screen
+recomp/*.regs
+recomp/*.bmp
+recomp/*.wav
+recomp/untranslated.log
+recomp/savedata/
+unpacked/
+tools/unpack
+recomp/vidc.log
+recomp/screenshot-*.bmp
+tools/*.events
+tools/*.vdu
+tools/*.screen
+tools/*.regs
+tools/vidc.log
